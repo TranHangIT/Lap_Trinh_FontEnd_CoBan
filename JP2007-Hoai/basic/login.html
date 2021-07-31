@@ -1,0 +1,59 @@
+﻿<html>
+	<head>
+		<title>Login</title>
+		<link href="login.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="js/login.js" > </script>
+	</head>
+	
+	<body>
+		<div class="loginview" id="loginview">
+			<form name="frmLogin" action="" method="">
+				<table  cellspacing="0">
+					<tr>
+						<th colspan="2"><i class="fas fa-user-secret"></i> Login</th>
+					</tr>
+					
+					<tr>
+						<td class="lc">Username</td>
+						<td> <input type="text" name="txtUserName" size="30" /></td>
+					</tr>
+					
+					<tr>
+						<td class="lc">Password</td>
+						<td> <input type="text" name="txtUserPass" size="30" /></td>
+					</tr>
+					<tr>
+						<td class="lc"> 
+							<input type="checkbox" name="" size="30"id="chkSave" />
+						</td>
+						<td>
+							<label for="chkSave">Save account information on this pc?</label>
+						</td>
+					</tr>
+					
+					<tr> 
+						<td colspan="2" align="center" >
+							<a href="#"><i class="fas fa-key"></i> Password forget?</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+							<a href="#"><i class="fas fa-question"></i> Help!</a>
+						</td>
+					</tr>
+					<tr> 
+						<td colspan="2" align="center" >
+							<button  type="button" onclick="checkValidLogin(this.form)"><i class="fas fa-sign-in-alt"></i> Login</button>
+							<button>Exit <i class="fas fa-sign-out-alt"></i></button>
+						</td>
+					</tr>
+					
+					<tr> 
+						<td colspan="2" align="right" >
+							<a href="#">Tiếng Việt</a>
+						</td>
+					</tr>
+				
+				</table>
+			
+			</form>
+		</div>
+		
+	</body>
+</html>

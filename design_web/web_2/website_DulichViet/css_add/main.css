@@ -1,0 +1,161 @@
+/* -----------------header--------- */
+.header .header_1 .sodienthoai {
+	font-size: 23px !important;
+	color:red;
+}
+.header_1{
+	margin-top:-10px;
+	background:#FBEFFB;
+}
+.header .header_1 .hotline{
+	margin-top:15px !important;
+	font-weight:600 !important;
+}
+.header .header_1 a{
+	color:#FA5882;
+	font-size:13px;
+}
+.header .header_1 a:hover{
+	text-decoration:none;
+	color:black;
+}
+.header .cach{
+	margin-top:20px !important;
+}
+
+/* --------------close header--------------- */
+
+/* -------------------slider--------------- */
+/* chỉnh trong style.css rồi  */
+/* -----------------close slider-------------- */
+
+/* ----------------feature---------------- */
+.feature{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.feature  .fe1{
+	border: 2px solid red !important;
+	border-radius:60px;
+	box-shadow: 5px 3px 10px #A4A4A4;
+	
+}
+.feature  .fe1 a{
+	color: red;
+}
+.feature  .fe2{
+	border: 2px solid #01A9DB !important;
+	border-radius:60px;
+	box-shadow: 5px 3px 10px #A4A4A4;
+	
+}
+.feature  .fe2 a{
+	color: #01A9DB;
+}
+.feature  .fe3{
+	border: 2px solid #08298A !important;
+	border-radius:60px;
+	box-shadow: 5px 3px 10px #A4A4A4;
+	
+}
+.feature  .fe3 a{
+	color: #08298A;
+}
+.feature  .fe4{
+	border: 2px solid #01DFA5 !important;
+	border-radius:60px;
+	box-shadow: 5px 3px 10px #A4A4A4;
+	
+}
+.feature  .fe4 a{
+	color: #01DFA5;
+}
+
+.feature a:hover{
+	text-decoration:none !important;
+	color:black;
+}
+.feature .to{
+	font-size:40px;
+}
+.feature .ngang{
+	
+	font-size:20px;
+	
+}
+/* -------------close feature---------------- */
+
+
+
+/* ------------------feature 2------------- */
+.feature_2{
+
+ background:#FBEFEF;
+ padding-top:50px;
+ padding-bottom:20px;
+ box-shadow: 5px 3px 10px #A4A4A4;
+}
+/* --------------close feature 2---------------- */
+
+
+/* ---------------contain--------- */
+.contain{
+	text-align:justify;
+	font-family: "Roboto", sans-serif !important;
+}
+.contain .tieu-de{
+	margin-top:50px;
+	font-size:25px;
+	font-weight: bold;
+	color:red;
+	
+
+}
+.contain p{
+	font-family: "Roboto", sans-serif !important;
+}
+.contain .mausao{
+	color:#D7DF01!important;
+}
+/* ----------close contain----------- */
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.header .header_1 .andi {
+		display:none !important;
+	}
+	.feature  .fe1{
+		
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.header .header_1 .andi {
+		display:none !important;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.header .header_1 .andi {
+		display:none !important;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.header .header_1 .andi {
+		display:none !important;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+	
+}

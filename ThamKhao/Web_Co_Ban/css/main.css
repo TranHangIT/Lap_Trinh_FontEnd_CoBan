@@ -1,0 +1,125 @@
+﻿/*Các xử lí định dạng cho login.html*/
+
+@import url('basic.css');
+@import url('all.css');
+@import url('img.css');
+
+/* *****************HEADER***************** */
+.header{
+	margin-left:15px;
+	margin-right:15px;
+	background:rgba(4,4,4,0.5);
+}
+
+/* *-------TOP-------* */
+.header .top{
+	padding: 5px 0;
+	border-bottom:1px solid #666;	
+	color:#fff;
+}
+.header .top .lang{
+	background: rgba(255,255,255,0.3);
+	color: #fff;
+	}
+.header .top .row .bl{
+	border-right:1px solid #ddd;
+}
+/* ******search******* */
+.header .search{
+	border-bottom:1px solid #ddd;
+	color:#fff;
+}
+/*------- MENU-----------*/
+.header .menu{
+	box-shadow:0 10px 10px rgba(4,4,4, 0.3);
+}
+.header .menu .nav-link{
+	padding-left:20px !important;
+	padding-right: 20px !important;
+	color: #eee !important;
+}
+
+
+
+/*------------SLIDER----------*/
+.slider .mybg1{
+	background: rgba(0,0,0,0.3);
+}
+.slider .mybg1{
+	background: rgba(0,0,0,0.3);
+}
+
+
+/*----------- FOCUS-NEW------*/
+.foucus-news .crop-img1{
+	height: 230px;
+	overflow: hidden;
+}
+.foucus-news a h5 {
+	text-align: justify;
+}
+
+
+/*----------- SECTION------*/
+.sections .size200{
+	width: 250px;
+	max-height: 180px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.header .top {
+		display: none;
+		
+	}
+	.header .search {
+		display: none;
+		
+	}
+	.foucus-news h2{
+		font-size: 23px !important;
+	}
+	
+	
+	
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.header .top {
+		display: none;
+		
+	}
+	.header .search {
+		display: none;
+		
+	}
+	.foucus-news h2{
+		font-size: 23px !important;
+	}
+	.foucus-news .crop-img1{
+	height: 150px;
+	overflow: hidden;
+	}
+	.foucus-news  a h5{
+		font-size: 16px;
+	}
+
+	
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
+

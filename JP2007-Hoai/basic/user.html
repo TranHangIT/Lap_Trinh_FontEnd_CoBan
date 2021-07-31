@@ -1,0 +1,206 @@
+﻿<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>User</title>
+		<link href="user.css" rel="stylesheet" type="text/css"/>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+		<link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+		<!-- <script language="javascript" src="ckeditor/ckeditor.js" > </script> -->
+		<!-- <script language="javascript" src="ckeditor/ckeditor.js" > </script> -->
+		<script language="javascript" src="js/user.js" > </script>
+	</head>
+	
+	<body>
+		<div class="container-sm">
+			
+				
+					<div class="userView">
+						<form name="frmUser" action="" method="">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="title text-center"><i class="fas fa-user-secret"></i> User account</div>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+								<label class="col-md-2 col-form-label text-right" for="txtName">Username</label>
+								<div class="col-md-3" >
+									<input type="text" class="form-control" id="txtName"/>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+								<label class="col-md-2 col-form-label text-right" for="txtPass">Userpass</label>
+								<div class="col-md-3" >
+									<input type="password" class="form-control" id="txtPass"/>
+								</div>
+								<label class="col-md-2 col-form-label text-right" for="txtPass2">Confirmpass</label>
+								<div class="col-md-3" >
+									<input type="password" class="form-control" id="txtPass2"/>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+								<label class="col-md-2 col-form-label text-right" for="txtEmail">Email</label>
+								<div class="col-md-3" >
+									<input type="text" class="form-control" id="txtEmail"/>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+								<label class="col-md-2 col-form-label text-right" for="slcPermis">Permission</label>
+								<div class="col-md-3" >
+									<script language="javascript">
+										generatePermis2();
+									</script>
+								</div>
+							</div>
+							<div class="row p-3 align-items-center">
+								<label class="col-md-2 col-form-label text-right" for="txtRole">Roles</label>
+								<div class="col-md-10" >
+									<script language="javascript">
+										generateRoles();
+									</script>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<div class="title text-center"><i class="fas fa-user-secret"></i> User Information</div>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+								<label class="col-md-2 col-form-label text-right" for="txtFullName">Fullname</label>
+								<div class="col-md-3" >
+									<input type="text" class="form-control" id="txtFullName"/>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+								<label class="col-md-2 col-form-label text-right" for="txtAlias">Alias</label>
+								<div class="col-md-3" >
+									<input type="text" class="form-control" id="txtAlias"/>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+								<label class="col-md-2 col-form-label text-right" for="txtBirth">Birthday</label>
+								<div class="col-md-3" >
+									<input type="date" class="form-control" id="txtBirth"/>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+								<label class="col-md-2 col-form-label text-right" for="txtAdd">Address</label>
+								<div class="col-md-6" >
+									<input type="text" class="form-control" id="txtAdd"/>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+								<label class="col-md-2 col-form-label text-right" for="txtPhone">Home phone</label>
+								<div class="col-md-2" >
+									<input type="text" class="form-control" id="txtPhone"/>
+								</div>
+								
+								<label class="col-md-2 col-form-label text-right" for="txtOffice">Office phone</label>
+								<div class="col-md-2" >
+									<input type="text" class="form-control" id="txtOffice"/>
+								</div>
+								
+								<label class="col-md-2 col-form-label text-right" for="txtMobile">Mobile phone</label>
+								<div class="col-md-2" >
+									<input type="text" class="form-control" id="txtMobile"/>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+								<label class="col-md-2 col-form-label text-right" for="slcGender">Gender</label>
+								<div class="col-md-3" >
+									<select class="form-control" id="slcGenter">
+										<option value="1">Male</option>
+										<option value="2">Female</option>
+										<option value="3">Male->Female</option></option>
+										<option value="4">Female->Male</option></option>
+										<option value="5">Males</option>
+										<option value="6">Females</option>
+										<option value="7" selected></option>
+									</select>
+								</div>
+							</div>
+							
+							<div class="row p-3 align-items-center">
+								<label class="col-md-2 col-form-label text-right" for="txtDetail">Provider detail</label>
+								<div class="col-md-10" >
+									<textarea rows="10" cols="100" id="txtDetail"></textarea>
+								</div>
+							</div>
+							
+							<script language="javascript">
+								var editor = CKEDITOR.replace('txtDetail');
+							</script>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<div class="title text-center"><i class="fas fa-user-secret"></i> Departmant Information</div>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+								<label class="col-md-2 col-form-label text-right" for="txtDepart">Department Name</label>
+								<div class="col-md-3" >
+									<input type="text" class="form-control" id="txtDepart"/>
+								</div>
+								<div class="col-md-4">
+									<select class="form-control">
+										<option value="0">----Select----</option>
+										<option value="1">Education</option>
+										<option value="2">Technology</option>
+										<option value="3">Finance</option>
+										<option value="4">others</option>
+									</select>
+								</div>
+							</div>
+							<!-- Chart Bản đồ-->
+							
+							<div class="row p-3">
+								<div class="col-md-12">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.4558164767473!2d105.73295331476373!3d21.054449385984412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345457e292d5bf%3A0x20ac91c94d74439a!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1611227869593!5m2!1svi!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-md-4 offset-md-2">
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" id="chkAgree">
+										<label class="form-check-label" for="chkAgree">Do you agree with rules of User?
+										</label>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+							
+								<div class="col-md-12 text-center" >
+									<a href="#"><i class="fas fa-sign-in-alt"></i> Sing in</a> &nbsp;&nbsp|&nbsp;&nbsp
+									<a href="#"><i class="fas fa-question"></i> Help!</a>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+							
+								<div class="col-md-12 text-center" >
+									<button type="submit" class="btn btn-primary"><i class="fas fa-user-plus"></i> Add new</button>
+									<button type="button" class="btn btn-primary">Exit <i class="fas fa-sign-out-alt"></i></button>
+								</div>
+							</div>
+						</form>
+					</div>
+	
+				
+			
+			
+		</div>
+		
+	</body>
+</html>

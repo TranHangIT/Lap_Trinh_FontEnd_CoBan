@@ -1,0 +1,238 @@
+﻿/*Các xử lí định dạng cho login.html*/
+
+@import url('basic.css');
+@import url('all.css');
+@import url('img.css');
+
+/* *****************HEADER***************** */
+/* Một phần ở trong cái style của nó co sẳn rồi  */
+.top {
+  font-weight: 500;
+}
+.top input{
+	width:350px !important;
+}
+.top button{
+	font-size:12px !important;
+}
+
+/* ====================SILDER======================== */
+.silder{
+	margin-top:100px;
+}
+/* ========================FOCUS NEW PRODUCT=================== */
+.focus_product{
+	margin-top:50px;
+}
+
+
+
+
+.section-title {
+  padding-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #9ae1af;
+  margin: 4px 10px;
+}
+
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #37423b;
+}
+
+
+.focus_product .crop-img1{
+	height: 230px;
+	overflow: hidden;
+} 
+.card-body .giadau{
+	color:red;
+	text-decoration:line-through;
+}
+.card-body .giasau{
+	color:green;
+	font-size: 20px;
+}
+.card-body a{
+	color:black;
+	font-weight:600;
+	font-size:19px;
+}
+.focus_product .card-body{
+	text-align:center;
+}
+
+
+
+/* =========================BLOG VITAMIN======================= */
+.blog-vitamin{
+	margin-left:15px;
+}
+.card-body h5:hover{
+	font-weight:700;
+}
+.blog-vitamin .card-body{
+	text-align:justify;
+}
+.crop-img1 .an{
+	width:85%;
+	margin-left:25px;
+
+}
+.blog-vitamin .card{
+	background:white;
+}
+.blog-vitamin .card{
+	box-shadow: 5px 3px 10px #555; /*đổ bóng*/
+}
+.blog-vitamin .khoi{
+	border:1px solid black;
+	padding: 15px;
+	border-radius: 10px; 
+	background:white;
+	text-align:justify;
+}
+.xinh{
+	padding: 0px !important;
+	width: 100% !important;
+}
+.blog-vitamin .card-header{
+	text-align:center;
+	font-weight:600;
+	font-size:17px;
+}
+/* =======CLOSE VITAMIN================ */
+.footer_cuoi{
+	background:#EFFBEF;
+	padding-top:20px;
+}
+.copyright{
+	margin-bottom:50px;
+}
+.footer_cuoi .cat_anh{
+	width:10px;
+	
+}
+.footer_cuoi ul li a{
+	text-decoration:none !important;
+	color:black;
+	
+	
+}
+.footer_cuoi ul{
+	list-style:none !important;
+	padding-left:0px;
+}
+
+
+.footer_cuoi ul li a:hover{
+	color:red;
+}
+/* ===================FOOTER============= */
+
+
+
+
+/* =============CLOSE FOOTER============= */
+
+
+
+
+/* =========================sflinhthinh */
+
+
+
+
+/* donglinhinh */
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	 .top{
+		display:none;
+	}
+	.section-title p{
+		font-size:20px;
+	}
+	.section-title h2 {
+		font-size: 14px;
+	}
+	.focus_product{
+		margin-left:10px;
+	}
+	.blog-vitamin .khoi{
+		margin-top:10px;
+	}
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.top{
+		display:none;
+	}
+	.section-title p{
+		font-size:20px;
+	}
+	.section-title h2 {
+		font-size: 14px;
+	}
+	.focus_product{
+		margin-left:10px;
+	}
+	.blog-vitamin .khoi{
+		margin-top:10px;
+	}
+}
+	
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.top{
+		display:none;
+	}
+	.section-title p{
+		font-size:20px;
+	}
+	.section-title h2 {
+		font-size: 14px;
+	}
+	.focus_product{
+		margin-left:10px;
+	}
+	.blog-vitamin .khoi{
+		margin-top:10px;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
+

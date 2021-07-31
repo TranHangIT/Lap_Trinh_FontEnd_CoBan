@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Sofia", sans-serif;
+}
+.menu-item{
+   
+    list-style: none;
+    
+}
+.menu-item li{
+    padding: 10px;
+}
+.header{
+    width: 100vh;
+    height:100vh;
+   background-image: cross-fade();
+
+}
