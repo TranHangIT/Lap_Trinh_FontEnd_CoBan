@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Index_web_1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+
+ <!-- tai sao nhung roi ma no van khong chay duoc may cai fontsome ay khong biet la tai sao -->
+  <link href="css_add/main.css" rel="stylesheet" type="text/css"/>
+  <link href="css_add/bootstrap.css" rel="stylesheet" type="text/css"/>
+  <link href="css_add/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+  
+  <!-- giống cái js ấy  -->
+  <!-- <link href="assets/vendor/aos.css" rel="stylesheet" type="text/css"/> -->
+  <!-- <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" type="text/css"/> -->
+  
+  
+  <script language="javascript" src="ckeditor/ckeditor.js"></script>
+  <script language="javascript" src="js/main.js"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+    <!-- ======= HEADER ======= -->
+    <div id="header" class="fixed-top">
+		<!-- dòng 1 trong header -->
+		<div class="container d-flex align-items-center">
+			<!-- logo -->
+			<h1 class="logo mr-auto"><img src="images/logo.png" class="" alt="..."></h1>
+			<!-- Menu -->
+			<nav class="nav-menu d-none d-lg-block">
+				<ul>
+					<li><a href="#"><i class="icofont-home"></i></a></li>
+					<li><a href="#">GIỚI THIỆU</a></li>
+					<li class="drop-down"><a href="">DANH MỤC SẢN PHẨM</a>
+						<ul>
+							<li><a href="#">Bánh kẹo nhập khẩu</a></li>
+							<li class="drop-down"><a href="#">Nước giải khát</a>
+								<ul>
+								  <li><a href="#">Nước trái cây</a></li>
+								  <li><a href="#">Bột giải khát</a></li>
+								  <li><a href="#">Sữa gạo</a></li>
+								  <li><a href="#">Sữa ngô</a></li>
+								  <li><a href="#">Nước có ga</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Socola nhập khẩu</a></li>
+							<li><a href="#">Thực phẩm sấy khô</a></li>
+							<li><a href="#">Trái cây nhập khẩu</a></li>
+						</ul>
+					</li>
+					<li><a href="#">SALE</a></li>
+					<li><a href="#">HƯỚNG DẪN MUA HÀNG</a></li>
+					<li><a href="#">LIÊN HỆ</a></li>
+					<li><a href="#">LIÊN HỆ MUA SỈ</a></li>
+				</ul>
+			</nav><!-- .nav-menu -->
+		</div>
+		<!-- dòng 2 trong header -->
+		<div class="top">		
+				<div class="container-md">
+					<div class="row">
+						<div class="col-3"></div>
+						<div class="col-md-5">
+							<form class="form-inline" name="frmSearch">
+								<input class="form-control mr-sm-2 dai" type="text" name="txtKeyword"/>
+								<button class="btn btn-outline-success my-2 my-sm-0" type="button">Tìm kiếm</button>
+							</form>
+						</div>
+						<div class="col-4 text-right">
+							<button class="btn btn-outline-dark"><i class="icofont-ui-user"></i>&nbsp;Đăng nhập</button>
+							<button class="btn btn-success"><i class="icofont-cart"></i>&nbsp;Giỏ hàng</button>
+							<button class="btn btn-danger"><i class="icofont-phone"></i>&nbsp;037.331.7715</button>
+						</div>
+					</div>
+				</div> 
+		</div>
+		
+    </div><!-- End Header -->
+    
+	<!-- SLIDER -->
+	<div class="silder">
+		<div class="container-fluid">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>			
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+					  <img src="images/silder_1.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+					  <img src="images/silder_2.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+					  <img src="images/silder_1.jpg"class="d-block w-100" alt="...">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!--  CLOSE SLIDER -->
+	
+	
+	<!-- ================FOCUS  PRODUCT================= -->
+	<div class="focus_product">
+		<div class="container">
+			<div class="row">
+				<div class="section-title" data-aos="fade-up">
+				    <h2>Sản phẩm</h2>
+				    <p>Sản Phẩm Bán chạy</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="card-deck">
+					    <div class="card">
+							<div class="crop-img1 hovergallery">
+								<img src="images/product_hot_1.jpg" class="card-img-top" alt="...">
+							</div>
+							
+							<div class="card-body">
+								<a href="#"><p class="card-text">Trà sữa nhập khẩu</p></a>
+								<p class="card-text giasau" >150.000 VND</p>
+								<p class="card-text giadau">190.000 VND</p>
+							</div>
+					    </div>
+						<div class="card">
+							<div class="crop-img1 hovergallery">
+								<img src="images/product_hot_2.jpg" class="card-img-top" alt="...">
+							</div>
+							
+							<div class="card-body">
+								<a href="#"><p class="card-text">Quýt Ai Cập</p></a>
+								<p class="card-text giasau" >99.000 VND</p>
+								<p class="card-text giadau">108.000 VND</p>
+							</div>
+					    </div>
+						<div class="card">
+							<div class="crop-img1 hovergallery">
+								<img src="images/product_hot_3.jpg" class="card-img-top" alt="...">
+							</div>
+							
+							<div class="card-body">
+								<a href="#"><p class="card-text">Socola Anh</p></a>
+								<p class="card-text giasau" >203.000 VND</p>
+								<p class="card-text giadau">254.000 VND</p>
+							</div>
+					    </div>
+						<div class="card">
+							<div class="crop-img1 hovergallery">
+								<img src="images/product_hot_4.jpg" class="card-img-top" alt="...">
+							</div>
+							
+							<div class="card-body ">
+								<a href="#"><p class="card-text">Kẹo mầm</p></a>
+								<p class="card-text giasau" >587.000 VND</p>
+								<p class="card-text giadau">620.000 VND</p>
+							</div>
+					    </div>
+						
+					 
+					  
+					</div>					
+				</div>
+			
+			</div>	
+			<div class="row  mt-5  justify-content-center">
+				<button type="button" class="btn btn-dark" >Xem thêm</button>
+			</div>
+	    </div>
+
+    </div>			
+	<!-- ======CLOSE FOCUS PRODUCT========= -->
+  
+	<!-- ==========================PRODUCT NEW================== -->
+	<div class="focus_product">
+		<div class="container">
+			<div class="row">
+				<div class="section-title" data-aos="fade-up">
+				    <h2>Sản phẩm</h2>
+				    <p>Sản Phẩm Mới</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="card-deck">
+					    <div class="card">
+							<div class="crop-img1 hovergallery">
+								<img src="images/product_hot_5.png" class="card-img-top" alt="...">
+							</div>
+							
+							<div class="card-body">
+								<a href="#"><p class="card-text">Trà sữa nhập khẩu</p></a>
+								<p class="card-text giasau" >150.000 VND</p>
+								<p class="card-text giadau">190.000 VND</p>
+							</div>
+					    </div>
+						<div class="card">
+							<div class="crop-img1 hovergallery">
+								<img src="images/product_hot_6.jpg" class="card-img-top" alt="...">
+							</div>
+							
+							<div class="card-body">
+								<a href="#"><p class="card-text">Quýt Ai Cập</p></a>
+								<p class="card-text giasau" >99.000 VND</p>
+								<p class="card-text giadau">108.000 VND</p>
+							</div>
+					    </div>
+						<div class="card">
+							<div class="crop-img1 hovergallery">
+								<img src="images/product_hot_7.png" class="card-img-top" alt="...">
+							</div>
+							
+							<div class="card-body">
+								<a href="#"><p class="card-text">Socola Anh</p></a>
+								<p class="card-text giasau" >203.000 VND</p>
+								<p class="card-text giadau">254.000 VND</p>
+							</div>
+					    </div>
+						<div class="card">
+							<div class="crop-img1 hovergallery">
+								<img src="images/product_hot_8.png" class="card-img-top" alt="...">
+							</div>
+							
+							<div class="card-body ">
+								<a href="#"><p class="card-text">Kẹo mầm</p></a>
+								<p class="card-text giasau" >587.000 VND</p>
+								<p class="card-text giadau">620.000 VND</p>
+							</div>
+					    </div>
+						
+					 
+					  
+					</div>					
+				</div>
+			</div>	
+			<div class="row  mt-5  justify-content-center">
+				<button type="button" class="btn btn-dark" >Xem thêm</button>
+			</div>
+		</div>
+	</div>	
+	<!-- ==================CLOSE PRODUCT NEW================== -->
+	<!-- =========================BLOG VITAMIN============ -->
+	<div class="blog-vitamin mt-5">
+		<div class="container">
+			<div class="row">
+				<div class="section-title" data-aos="fade-up">
+				    <h2>Tâm sự</h2>
+				    <p>Blog Vitamin</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card-deck">
+					    <div class="card">
+						    <div class="card-body">
+								<a href="#">
+								<h5 class="card-title giasau">Mách mẹ các loại sữa tươi thơm ngon nhiều dưỡng chất cho bé phát triển nhanh</h5>
+								</a>
+							</div>
+							<div class="crop-img1">
+								<img src="images/blog_vitamin_1.jpg" class="card-img-top an " alt="...">
+							</div>
+							<div class="card-body">
+							  <p class="card-text">
+							  Sữa tươi luôn là thức uống dinh dưỡng không thể thiếu cho các bé. Sau đây Vitamin House xin bật mí một số loại sữa tươi nhập khẩu thơm ngon cực kỳ nhiều dưỡng chất giúp bé đạt sự phát triển tốt nhất về trí não và chiều cao.</p>
+								<p class="card-text "><a  href="#" class="text-primary"><i class="icofont-play"></i>&nbsp;Chi tiết</a></p>
+							</div>
+							
+					    </div>
+						<div class="card">
+						    <div class="card-body">
+								<a href="#">
+								<h5 class="card-title giasau">Tổng hợp các loại trái cây ngoại nhập quả lớn giàu chất dinh dưỡng thích hợp làm quà...</h5>
+								</a>
+							</div>
+							<div class="crop-img1">
+								<img src="images/blog_vitamin_2.jpg" class="card-img-top an " alt="...">
+							</div>
+							<div class="card-body">
+							  <p class="card-text">
+							  Trái cây ngoại nhập là một trong các loại quà biếu được gửi tặng nhiều nhất giữa người với người. Trái cây ngoại không chỉ tươi ngon, to tròn mà còn chứa nhiều vitmain và khoáng chất tốt cho sức khỏe. Vitamin House xin tổng hợp một số loại trái cây ngoại nhập thích hợp nhất làm quà biếu tặng người thân...</p>
+							  <p class="card-text "><a  href="#" class="text-primary"><i class="icofont-play"></i>&nbsp;Chi tiết</a></p>
+							</div>
+							
+					    </div>
+						<div class="card">
+						    <div class="card-body">
+								<a href="#">
+								<h5 class="card-title giasau">Địa chỉ bán quà tặng quốc tế thiếu nhi 1/6 ý nghĩa cho bé yêu tình cảm gia đình gắn bó</h5>
+								</a>
+							</div>
+							<div class="crop-img1">
+								<img src="images/blog_vitamin_3.png" class="card-img-top an " alt="...">
+							</div>
+							<div class="card-body">
+							  <p class="card-text">
+							  Ngày Quốc tế thiếu nhi 1/6 đang đến rất gần. Mẹ và bố đã có ý tưởng quà tặng cho bé yêu của mình hay chưa? Nếu chưa, hãy nghía qua một số ý tưởng thú vị và ý nghĩa đến từ Vitamin House – cửa hàng chuyên bán quà tặng chất lượng và thiết thực bậc nhất sau đây. Nơi đây cũng bán hạt chia Nutiva Mỹ siêu chất lượng với giá cực phải chăng.</p>
+							  <p class="card-text "><a  href="#" class="text-primary"><i class="icofont-play"></i>&nbsp;Chi tiết</a></p>
+							</div>
+							
+					    </div>
+																 
+					</div>					
+				</div>
+			
+			</div>
+			<div class="row mt-5">
+				<div class ="col-xl-8">
+					<div class="khoi">
+						<h6>VITAMIN HOUSE - Cửa hàng Chuyên Bán Các Loại Bánh kẹo - Trái cây - Thức uống nhập khẩu Chất Lượng</h6>
+						<p><span style="color:blue">Vitamin House</span> chuyên cung cấp các loại bánh kẹo - trái cây - thức uống nhập khẩu từ các thương hiệu uy tín - nổi tiếng trên thế giới.
+							Với quy trình nhập khẩu, bảo quản các loại bánh kẹo - trái cây - thức uống nhập khẩu chặt chẽ đảm bảo mang lại cho khách hàng những sản phẩm đạt chất lượng cao nhưng vẫn giữ được hương vị.</p>
+						<h6>- Add 1 : 563 Cách Mạng Tháng 8, P.15, Q.10</h6>
+						<h6>- Add 2 : 330 Quang Trung,P10, Q.Gò Vấp</h6>
+						<h6>- Add 3 : 219A Phạm Viết Chánh, P.Nguyễn Cư Trinh, Q.1</h6>
+						<h6 style="color:red;">☎️: 096.135.6668</h6>
+					</div>
+				</div>
+				<div class="col-xl-4">
+				    <div class=" khoi xinh border-danger mb-3">
+					<div class="card-header">HỖ TRỢ KHÁCH HÀNG</div>
+					    <div class="card-body text-danger">
+							<form class="" name="frmInfor">
+								<div class="row mb-2">									
+									<div class="col-md-4">
+										<label class="col-form-label text-right">Họ và tên</label>
+									</div>
+									<div class="col-md-8">
+										<input type="text" class="form-control"/>
+									</div>									
+								</div>
+								<div class="row mb-2">									
+									<div class="col-md-4">
+										<label class="col-form-label text-right">Địa chỉ</label>
+									</div>
+									<div class="col-md-8">
+										<input type="text" class="form-control"/>
+									</div>									
+								</div>
+								<div class="row mb-2">									
+									<div class="col-md-4">
+										<label class="col-form-label text-right">Email</label>
+									</div>
+									<div class="col-md-8">
+										<input type="text" class="form-control"/>
+									</div>									
+								</div>
+								<div class="row mb-2">									
+									<div class="col-md-4">
+										<label class="col-form-label text-right">Nội dung</label>
+									</div>
+									<div class="col-md-8">
+										<input type="text" class="form-control"/>
+									</div>									
+								</div>
+								<div class="row justify-content-center">	
+									<button type="button" class="btn btn-danger">Liên hệ</button>
+								</div>								
+							</form>
+					    </div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	</div>	
+	<!-- ===============ENG BLOG VITAMIN -->
+	
+	<!-- ============FOOTER=============== -->
+	<div class="footer_cuoi">
+		<div class="container">
+		    <div class="row">			
+				<div class="col-lg-3">
+					<div class="crop-img1">
+						<img src="images/logo.png" class="card-img-top" alt="...">
+					</div>
+					<p>
+					  Địa chỉ 1: 563 CMT8, P15, Q10<br>
+
+						Địa chỉ 2: 330 Quang Trung, P10, Q.Gò Vấp<br>
+						Fax: vitaminhouse.fb@gmail.com<br>
+					  <strong>Điện thoại:</strong> 096.135.6668/19002111<br>
+					  <strong>Email:</strong> vitaminhouse.fb@gmail.com<br>
+					</p>
+				</div>
+
+				<div class="col-lg-3">
+					<h4>Thông tin chung</h4>
+					<ul>
+					  <li><a href="#">Giới thiệu</a></li>
+					  <li><a href="#">Hướng dẫn khách hàng</a></li>
+					  <li><a href="#">Thanh toán</a></li>
+					  <li><a href="#">Hướng dẫn liên hệ</a></li>
+					  
+					</ul>
+				</div>
+
+				<div class="col-lg-3">
+					<h4>Hỗ trợ khách hàng</h4>
+					<p>
+					Hotline: 19002111 chọn phím 2<br>
+					Bán lẻ: 096.135.6668<br>
+					Bán sỉ: 096.186.4789<br>
+					Tiếp nhận ý kiến đóng góp: 0931.247.666
+						
+					</p>
+				</div>
+
+				<div class="col-lg-3">
+					<h4>Chính sách chung</h4>
+					<ul>
+					    <li><a href="#">Chính sách thanh toán</a></li>
+					    <li><a href="#">Chính sách giao nhân</a></li>
+					    <li><a href="#">Chính sách đổi trả</a></li>
+					    <li><a href="#">Chính sách tích điểm</a></li>					  					  
+					</ul>
+					
+				</div>							
+			</div>
+			<div class="row mt-5">
+				<div class="col-lg-12">
+					<div class="copyright">
+						&nbsp;&copy; Copyright <strong><span>Pham Hoai</span></strong>. All Rights Reserved
+						Designed by <a href="https://bootstrapmade.com/">Pham Hoai && Bootrapmade</a>
+					</div>
+					
+				</div>				
+			</div>
+		</div>	
+	</div>
+
+    <!-- ================CLOSE FOOTER============== -->
+  
+  
+  
+  
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  
+  <!-- cho vao de no chuyen dong cai tieu de nhung lai khong duoc khong hieu tai sao -->
+  <!-- <script src="assets/vendor/aos.js"></script> -->
+  <!-- <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script> -->
+  
+<!-- them nha    -->
+<script src="js/jquery-3.5.1.slim.min.js" ></script>
+<script src="js/popper.min.js" ></script>
+<script src="js/bootstrap.min.js" ></script>
+
+</body>
+
+</html>

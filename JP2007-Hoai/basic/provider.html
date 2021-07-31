@@ -1,0 +1,85 @@
+﻿<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Provider</title>
+		<link href="provider.css" rel="stylesheet" type="text/css"/>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+		<link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="ckeditor/ckeditor.js" > </script>
+		<script language="javascript" src="js/provider.js" > </script>
+	</head>
+	
+	<body>
+		<div class="container-sm">
+			
+				
+					<div class="providerView">
+						<form name="frmProvider" action="" method="">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="title text-center"><i class="fas fa-user-secret"></i> Provider account</div>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+								<label class="col-md-2 col-form-label text-right" for="txtName">Provider name</label>
+								<div class="col-md-4" >
+									<input type="text" class="form-control" id="txtName" onKeyUp="checkValidProvider(this.form)" />
+								</div>
+								<div class="col-md-4">
+									<div id="viewError"></div>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+								<label class="col-md-2 col-form-label text-right" for="txtImage">Provider image</label>
+								<div class="col-md-4" >
+									<input type="file" class="form-control-file" id="txtImage"/>
+								</div>
+							</div>
+							<div class="row p-3 align-items-center">
+								<label class="col-md-2 col-form-label text-right" for="txtDetail">Provider detail</label>
+								<div class="col-md-10" >
+									<textarea rows="10" cols="100" id="txtDetail"></textarea>
+								</div>
+							</div>
+							
+							<script language="javascript">
+								var editor = CKEDITOR.replace('txtDetail');
+							</script>
+							
+							<div class="form-group">
+								<div class="col-md-4 offset-md-2">
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" id="chkAgree"  onclick="checkValidProvider(this.form)">
+										<label class="form-check-label" for="chkAgree">Do you agree with rules the Provider?
+										</label>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+							
+								<div class="col-md-12 text-center" >
+									<a href="#"><i class="fas fa-key"></i> Password forget</a> &nbsp;&nbsp|&nbsp;&nbsp
+									<a href="#"><i class="fas fa-question"></i> Help!</a>
+								</div>
+							</div>
+							
+							<div class="row p-3">
+								<div class="col-md-12 text-center" >
+									<button type="button" id="btnReg" disabled class="btn btn-primary"><i class="fas fa-sign-in-alt"></i> Registry</button>
+									<button type="button" class="btn btn-primary">Exit <i class="fas fa-sign-out-alt"></i></button>
+								</div>
+							</div>
+							
+						</form>
+					</div>
+	
+				
+			
+			
+		</div>
+		
+	</body>
+</html>

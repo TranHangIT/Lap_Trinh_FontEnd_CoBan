@@ -1,0 +1,60 @@
+﻿/* Các sử lý định dạng cho login.html*/
+
+@import url('basic.css');
+
+@import url('css/all.css');
+
+.userView{
+	/*width:  100px;*/
+	height: auto;/*50 phần chia của màn hình*/
+	
+	background:  #eff;
+	
+	box-shadow: 5px 5px 10px #555; /*đổ bóng*/
+	
+	border-radius: 10px; /*bán kính lượn góc*/
+}
+.userView  .title{
+	background: #555;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.userView iframe{
+	border: 1px solid #ddd !important;
+	border-radius: 3px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.userView label{
+		text-align: left !important;
+		font-weight: 700;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.userView label{
+		text-align: left !important;
+		font-weight: 700;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}

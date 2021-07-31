@@ -1,0 +1,39 @@
+﻿/*các xử lý định dạng /basic/basic */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
+body{
+	background: #eef; 
+	color:#555; 
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+table{
+	width: 100%;
+}
+th, td{
+	padding: 10px 5px;
+}
+
+th{
+	background: #555;
+	color: #fff;
+	text-transform: uppercase;
+}
+.lc{
+	text-align: right;
+	font-weight: 600;
+}
+
+form{}
+
+input, button{
+	padding: 10px 5px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+input:focus, button:focus{
+	border: 1px solid #55f;
+	box-shadow: 0 0 10px #88f;
+}
+a{
+	text-decoration: none;
+}
